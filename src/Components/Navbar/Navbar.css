@@ -18,9 +18,14 @@ img{
    nav{
      position: absolute;
      background: transparent;
-     height: 50px;
+     height: 60px;
    }
   
 li{
   margin-left: 10px;
+}
+
+.collapse{
+  z-index: 9999;
+
 }
