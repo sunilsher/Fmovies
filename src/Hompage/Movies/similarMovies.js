@@ -10,7 +10,7 @@ const SimilarMovies = ()=>{
     const {similarMovies} = useSelector((state)=>state.movie)
     const {id}= useParams()
     const dispatch = useDispatch();
-    React.useEffect(() => {
+    useEffect(() => {
         dispatch(getSimilarMovieUrl(id))
         }, [dispatch,id])
         return (
