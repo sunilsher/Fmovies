@@ -1,0 +1,26 @@
+img{
+  width:200px;
+  height:45px;
+}
+
+#search{
+    line-height: 100%;
+    padding-right: 22.5px;
+    padding-left: 20px;
+    border: none;
+    outline: 0;
+    color: #fff;
+    margin-left: 1em;
+    float: right;
+    
+   }
+
+   nav{
+     position: absolute;
+     background: transparent;
+     height: 50px;
+   }
+  
+li{
+  margin-left: 10px;
+}
